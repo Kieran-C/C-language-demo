@@ -13,12 +13,10 @@ static double calculate(char *equation) {
         switch (counter) {
             case 1:
                 value1 = atof(p);
-                // value1 = p[1];
             case 2:
                 strcpy(operation, p);
             case 3:
                 value2 = atof(p);
-                // value2 = p[1];
         }
         counter++;
     }
